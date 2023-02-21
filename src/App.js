@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn about the React Spoodlebook app
         </a>
       </header>
     </div>

@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Spoodlebook · React Forms Study
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React learning project exploring greeting components, props and controlled forms.
 
-## Available Scripts
+**React · JavaScript**
 
-In the project directory, you can run:
+[Getting started](#getting-started) · [Repository guide](#repository-guide) · [Checks](#checks-and-review) · [Credits](#credits-and-reuse)
 
-### `npm start`
+## What you can explore
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Functional greeting components.
+- A controlled-form component.
+- Create React App development scripts.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting started
 
-### `npm test`
+Requires Node.js and npm. Check [package.json](package.json) for the existing toolchain and dependency versions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/SamOBrienOlinger/Spoodlebook.git
+cd Spoodlebook
+npm ci
+npm start
+```
 
-### `npm run build`
+Open [localhost:3000](http://localhost:3000), or the alternative address printed by the development server.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project retains its original Create React App toolchain. If installation reports an engine or dependency conflict, compare your Node/npm versions with the manifest and lockfile before changing either. An install command is not evidence that this older dependency set has been modernised.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Repository guide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Path | Purpose |
+| --- | --- |
+| [src/](src/) | Application components and client logic |
+| [public/](public/) | Static files served with the app |
+| [package.json](package.json) | Package dependencies and available commands |
 
-### `npm run eject`
+## Checks and review
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Use Node.js and npm for the package commands below. Install the package dependencies first when the command uses a local build or test tool.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Command | Purpose |
+| --- | --- |
+| `npm run build` | Create the configured application build |
+| `npm test -- --watchAll=false` | Run the existing test suite |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+For a manual review, follow the main user journey, check keyboard navigation and narrow-screen layouts, and inspect the browser console for missing assets or failed requests.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Generate fresh results from the revision you are working on; historical test reports describe earlier runs.
 
-## Learn More
+## Credits and reuse
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No repository-level licence file is present in this snapshot. This README does not grant additional reuse permissions. Check with the relevant rights holders before reusing code, written content or assets.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Support
 
-### Code Splitting
+Repository maintained in [Sam O’Brien-Olinger’s GitHub account](https://github.com/SamOBrienOlinger). For a problem or suggested improvement, [open an issue](https://github.com/SamOBrienOlinger/Spoodlebook/issues) with the affected page or command, steps to reproduce, and expected behaviour.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to top](#spoodlebook--react-forms-study)

@@ -14,7 +14,7 @@ A React learning project exploring greeting components, props and controlled for
 
 ## Getting started
 
-Requires Node.js and npm. Check [package.json](package.json) for the existing toolchain and dependency versions.
+Requires Git, Node.js and npm. Check [package.json](package.json) for the existing toolchain and dependency versions.
 
 ```bash
 git clone https://github.com/SamOBrienOlinger/Spoodlebook.git
